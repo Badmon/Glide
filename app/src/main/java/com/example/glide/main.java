@@ -27,7 +27,7 @@ public class main extends AppCompatActivity {
                 into(image);
 
         Glide.with(this).
-                load(url).
-                into(image);
+                load(url1).
+                into(image1);
     }
 }
