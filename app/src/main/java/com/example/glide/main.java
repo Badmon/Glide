@@ -18,11 +18,11 @@ public class main extends AppCompatActivity {
 
         image= findViewById(R.id.img);
 
-        String url="http://hitexroidgroup.ir/uploads/monthly_2017_12/building-image-gallery-all-with-glide.jpg.dcbab30c0c25224e1ae0b50104b458d7.jpg";
+        String url="https://cdn.vox-cdn.com/thumbor/rpmbJ_H5i4g3vFNeZVB6mdZHfW4=/0x0:711x400/1200x800/filters:focal(325x93:437x205)/cdn.vox-cdn.com/uploads/chorus_image/image/60365061/pokemon_piplup.0.png";
         String url1="https://cdn.vox-cdn.com/thumbor/dRlxNheMNdTmTFZg7bHh-ZnoNis=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/14622892/Switch_PokemonLetsGo_090618_PressKit_SCRN_10.jpg";
 
         Glide.with(this).
-                load(url1).
+                load(url).
                 into(image);
     }
 }
