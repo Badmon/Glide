@@ -18,7 +18,7 @@ public class main extends AppCompatActivity {
 
         img = findViewById(R.id.img);
 
-        String url="";
+        String url=" ";
 
         Glide.with(this).
                 load(url).
