@@ -16,10 +16,18 @@
 
     <ImageView
         android:layout_gravity="center"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
+        android:layout_width="325dp"
+        android:layout_height="325dp"
         android:id="@+id/img"
         android:background="@color/colorPrimary"
+        android:layout_marginVertical="10dp"
+        />
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="325dp"
+        android:layout_height="325dp"
+        android:id="@+id/img1"
+        android:background="@color/colorPrimaryDark"
         />
 
 
